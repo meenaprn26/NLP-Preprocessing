@@ -1,21 +1,36 @@
-# NLP-Preprocessing
+# NLP Preprocessing
 
-This project demonstrates the fundamental preprocessing techniques used in Natural Language Processing (NLP) using Python and NLTK.
+This repository demonstrates the fundamental steps of Natural Language Processing (NLP), including text preprocessing and feature extraction techniques implemented using Python.
 
-## Features
-- Convert text to lowercase
-- Remove punctuation
-- Sentence tokenization
-- Word tokenization
-- Remove stop words
+## 📂 Files
+
+### 1. NLP_Preprocessing_Part1.ipynb
+This notebook covers the basic text preprocessing steps:
+- Text Cleaning
+- Lowercasing
+- Removing Punctuation
+- Sentence Tokenization
+- Word Tokenization
+- Stop Word Removal
 - Stemming
 - Lemmatization
 
-## Technologies Used
-- Python
-- NLTK
-- Google Colab
+### 2. NLP_Preprocessing_Part2_Feature_Extraction.ipynb
+This notebook covers feature extraction techniques used in NLP:
+- One-Hot Encoding
+- Bag of Words (BoW)
+- N-Grams
+- TF-IDF
+- Word2Vec
 
-## Files
-- `nlp_preprocessing.ipynb` – Complete preprocessing notebook
-- `README.md` – Project description
+## 🛠️ Technologies Used
+- Python
+- Google Colab
+- NLTK
+- Scikit-learn
+- Gensim
+- NumPy
+- Pandas
+
+## 📌 Objective
+The objective of this project is to understand and implement the essential preprocessing and feature extraction techniques used before building NLP and Machine Learning models.
